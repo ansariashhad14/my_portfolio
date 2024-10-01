@@ -1,0 +1,585 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#main {
+    background-image: url('https://t4.ftcdn.net/jpg/01/70/93/27/360_F_170932733_VOHGeaH5AjrVCXBVryEwVgwhArv2wNNH.jpg');
+    height: 700px;
+    padding-top: 80px;
+    /* Adjust this value as needed */
+}
+
+
+.main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: crimson;
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.navbar h1 span {
+    color: #ffcc00;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: rgb(0, 243, 243);
+}
+
+.nav p {
+    color: white;
+
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.nav h2 {
+    font-size: 60px;
+    color: white;
+    margin-left: 100px;
+}
+
+#femal {
+    height: 40px;
+    width: 100px;
+    margin-left: 100px;
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#femal:hover {
+    color: red;
+    background-color: white;
+
+}
+
+.cb {
+    color: white
+}
+
+span {
+    color: red;
+
+}
+
+#color {
+    color: red;
+    font-size: 30px;
+}
+.ma{
+    width: 500px;
+}
+.mohd{
+    width: 500px;
+}
+#cb {
+    margin-left: 150px;
+    background-color: red;
+    margin-top: 10px;
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+}
+.nav {
+    margin-top: 140px;
+}
+.aa {
+    font-size: 30px;
+    color: red;
+    margin-left: 500px;
+}
+
+.bb {
+    height: 240px;
+    width: 230px;
+    margin-left: 500px;
+    margin-top: 40px;
+}
+.ac {
+    font-size: 20px;
+    color: black;
+}
+
+.second {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.name {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.mohd {
+    color: black;
+
+}
+
+.mohd h2 {
+    color: black;
+    font-size: 40px;
+}
+
+.mohd p {
+    color: black;
+    font-size: 18px;
+    padding-inline: 20px;
+    padding-block: 40px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mohd h2 {
+    font-size: 25px;
+}
+
+#cb {
+    color: white;
+    background-color: red;
+}
+
+#cb:hover {
+    color: red;
+    background-color: white;
+}
+
+
+
+.mohd.inpute:hover {
+    font-weight: 900;
+    border: 5px solid black;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px 25px 5px 35px;
+
+    padding: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.title {
+    font-size: 20px;
+    position: relative;
+}
+
+.title::before {
+    position: absolute;
+    content: "";
+    left: -60%;
+    height: 3px;
+    top: 50%;
+    background: black;
+    width: 40px;
+}
+
+.title::after {
+    position: absolute;
+    content: "";
+    right: -60%;
+    height: 3px;
+    top: 50%;
+    background: black;
+    width: 40px;
+}
+
+.services {
+    text-align: center;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.services h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.services p {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.meta {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.service_web{
+    width: 300px;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+.service_first {
+    width: 300px;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+.service_for{
+    width: 300px;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+.service h2 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.service h2:hover {
+    font-weight: 900;
+    border: 5px solid black;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px 25px 5px 35px;
+    border: 2px solid wheat;
+    padding: 10px;
+
+}
+
+.service p {
+    margin-top: 20px;
+    color: white;
+    line-height: 1.4;
+    padding: 0 10px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.service:hover {
+    transform: scale(1.05);
+    background-color: crimson;
+    border: 4px solid rgb(222, 222, 219);
+    border-radius: 15px 25px 5px 35px;
+    border: 2px solid transparent;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.my h1 {
+    text-align: center;
+}
+
+.my p {
+    text-align: center;
+    color: red;
+    padding-bottom: 40px;
+}
+
+.strong h1 {
+    padding-bottom: 30px;
+}
+
+#line5 h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 45px;
+}
+
+#line5 p {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.strong {
+    width: 500px;
+    color: black;
+    margin-top: 20px;
+    padding-inline: 50px;
+
+}
+
+.strong p {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+#mk {
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#mk:hover {
+    color: red;
+    background-color: white;
+}
+
+
+.rightskill {
+    width: 500px;
+}
+
+#textcolor {
+    color: black;
+}
+
+#lr {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#line {
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+    margin-top: 20px;
+}
+
+#linner {
+    width: 80%;
+    height: 100%;
+    background-color: red;
+}
+
+#linner1 {
+    width: 76%;
+    height: 100%;
+    background-color: red;
+}
+
+.bl {
+    width: 100%;
+}
+
+#la {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#textcolor {
+    color: black;
+}
+
+#linner2 {
+    width: 15%;
+    height: 100%;
+    background-color: red;
+}
+#line7 h3 {
+    font-size: 25px;
+}
+.line5{
+    width: 500px;
+}
+
+#hello p {
+    color: black;
+    font-size: 15px;
+    padding-left: 70px;
+    width: 40%;
+    height: 20px;
+
+}
+
+.ca {
+    padding-right: 80%;
+    margin-bottom: 20px;
+
+}
+
+
+.last{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.no {
+    width: 500px;
+}
+
+.tr {
+    width: 500px;
+}
+
+#name {
+    height: 40px;
+    border-radius: 5px;
+    width: 47%;
+}
+
+#subject {
+    height: 40px;
+    border-radius: 5px;
+    width: 47%;
+}
+
+#mohd {
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#mal {
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#button {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.ab {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#button:hover {
+    color: red;
+    background-color: white;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#bc {
+    padding-top: 15px;
+    font-size: 20px;
+}
+footer span{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .main{
+        width:100%;
+    }
+    .about{
+    text-align: center;        
+    }
+    .nav p{
+        font-size: 25px;
+    }
+    .nav h2{
+        font-size: 40px;
+    }
+    .nav{
+       padding: 0;
+    }
+    a{
+        display: none;
+    }
+    .rightskill{
+        padding-inline: 20px;
+    }
+    .no{
+        padding-inline: 20px;
+    }
+    .tr{
+        padding-inline: 20px;
+    }
+    .nevbar h1{
+        text-align: center;
+    }
+    #bc{
+        font-size: 15px;
+    }
+}
